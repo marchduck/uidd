@@ -1,5 +1,26 @@
-p{
-  background:#c0c0c0;
-  color: red;
+body{
+	background:black;}
 
+#page{
+	width:13%;
+	height:50%;
+	z-index:1;
+	margin: 1% 40% 30% 35%;
+	
+}
+#button_yellow{
+	position:relative;
+	width:10px;
+	height:20px;
+	z-index:10;
+	margin-left:139%;
+	margin-top:-184%;
+}
+#button_yellow_a{
+	position:relative;
+	width:5%;
+	height:10%;
+	z-index:10;
+	margin-left:89%;
+	margin-top:-27%;
 }
