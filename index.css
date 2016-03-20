@@ -1,26 +1,103 @@
 body{
-	background:black;}
-
+	background:black;
+	margin:0px;
+	overflow:hidden;
+}
+	
+#black{
+	background:black;
+	z-index:20;
+	width:23%;
+	height:10%;
+	margin: -0% 0% 0% 37%;
+	position:relative;
+}	
 #page{
+	background:orange;
+	width:23%;
+	height:85%;
+	z-index:1;
+	margin: 2% 0% 0% 37%;
+	position:relative;
+	
+}	
+#mymap{
+	top:0;
+	right:0;
+	z-index:2;
+	position:absolute;
 	width:13%;
 	height:50%;
-	z-index:1;
-	margin: 1% 40% 30% 35%;
+	margin: 0% 0% 0% 0%;
+}	
+
+
+#icon{
+	position:absolute;
+	top:0;
+	background:white;
+	right:0;
+	width:100%;
+	height:11.4%;
+	z-index:2;
 	
+	
+}
+.menumore{
+	margin:8% 0% 0% 8%;
+	position:relative;
+}
+.western{
+	margin:-7.5% 0% 0% 25%;
+	width:100%;
+	height:1%;
+}
+.find{
+	margin:7% 0% 0% 37%;
+}
+.search{
+	margin:-7.5% 0% 0% 91%;
+}
+
+#reset{
+	margin:-37% 0% 0% 75%;
+	z-index:999;
+	position:relative;
+	cursor:pointer;
 }
 #button_yellow{
 	position:relative;
-	width:10px;
-	height:20px;
 	z-index:10;
-	margin-left:139%;
-	margin-top:-184%;
+	cursor:pointer;
+	top:-55%;
+	right:-45%;
+	
 }
-#button_yellow_a{
+#down{
 	position:relative;
 	width:5%;
 	height:10%;
 	z-index:10;
-	margin-left:89%;
-	margin-top:-27%;
+	margin:-10% 0% 0% 46%;
+	cursor:pointer;
 }
+#page_a{
+	width:23%;
+	height:85%;
+	z-index:1;
+	margin: -41.5% 0% 0% 37%;
+	position:relative;
+	top:0%;
+	
+	}
+	
+#page_b{
+	width:23%;
+	height:85%;
+	z-index:1;
+	margin: -31.5% 0% 0% 37%;
+	position:relative;
+	top:0%;
+	
+	
+	}
